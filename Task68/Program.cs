@@ -10,19 +10,6 @@ int getFromUserData(string message)
     int result = int.Parse(Console.ReadLine()!);
     return result;
 }
-
-
-/*Console.WriteLine("Введите два положительных числа: M и N.");
-int m = InputInt("Введите M: ");
-int n = InputInt("Введите N: ");
-
-
-int InputInt(string output)
-{
-    Console.Write(output);
-    return int.Parse(Console.ReadLine());
-}
-*/
 int Akkerman(int m, int n)
 {
     if (m == 0)
