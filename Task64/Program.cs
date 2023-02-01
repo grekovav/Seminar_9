@@ -9,7 +9,7 @@ int getFromUserData(string message)
     int result = int.Parse(Console.ReadLine()!);
     return result;
 }
-int userNumber = getFromUserData("Введите число N");
+int userNumber = getFromUserData("Введите положительное число N");
 printRange(userNumber);
 void printRange(int N)
 {
@@ -17,6 +17,6 @@ void printRange(int N)
     {
         return;
     }
-    Console.Write(N + ",");
+    Console.Write(N + " ");
     printRange(N - 1);
 }
